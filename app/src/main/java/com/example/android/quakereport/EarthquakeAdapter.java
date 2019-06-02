@@ -71,6 +71,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
 
 
 
+
   return listItemView;
   }
     /**
@@ -133,4 +134,5 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
     }
         return ContextCompat.getColor(getContext(), magnitudeColorid);
     }
+
 }
