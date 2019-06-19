@@ -69,10 +69,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         String formattedTime=formatTime(dateObject);
         timeView.setText(formattedTime);
 
-
-
-
-  return listItemView;
+        return listItemView;
   }
     /**
      * Return the formatted date string (i.e. "Mar 3, 1984") from a Date object.
